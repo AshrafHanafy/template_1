@@ -1,0 +1,35 @@
+/* 3-2 About Section */
+.about_content{
+    overflow: hidden;
+}
+.about_item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 50 20;
+}
+.about_item.mg{
+    margin: 0 5%;
+}
+.about_item .icon{
+    color: #6195ff;
+    margin-bottom: 10;
+}
+.about_item_title{
+    text-transform: capitalize;
+    margin-bottom: 10;
+}
+.ltr_effect:hover .about_item_title{
+    color: #fff;
+    transition: 1s;
+}
+.about_item_desc{
+    line-height: 1.6;
+    margin-bottom: 10;
+    color: #999;
+}
+.about_item_link{
+    color: #6195ff;
+    text-transform: capitalize;
+}
